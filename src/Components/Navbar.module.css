@@ -1,0 +1,36 @@
+.container{
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+  align-items: center;
+  background-color:teal;
+}
+.logo h1{
+  margin-left: 20px;
+}
+.nav ul{
+  display: flex;
+  list-style: none;
+  gap: 34px;
+}
+.link{
+  text-decoration: none;
+  color: black;
+  margin-top: 18px;
+  color:white;
+}
+.btn{
+  border: none;
+  background-color: black;
+  padding: 6px 16px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+}

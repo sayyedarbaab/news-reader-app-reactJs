@@ -1,0 +1,64 @@
+.container{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 80vh;
+    width: 50%;
+    background: linear-gradient(170deg,lightblue,darkblue);
+    position: relative;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: 280px;
+  }
+  .main{
+    background: linear-gradient(170deg,lightblue,rgb(103, 199, 12));;
+    height: 88vh;
+  }
+  .head{
+    text-align: center;
+    margin-top: 40px;
+    position: absolute;
+    margin-left: 200px;
+  }
+  .email{
+    border-radius: 3px;
+    width: 70%;
+    height: 7vh;
+    margin-top: 130px;
+    margin-left: 90px;
+    position: absolute;
+  }
+  .pass{
+    border-radius: 3px;
+    width:70%;
+    height: 7vh;
+    margin-top: 200px;
+    margin-left: 90px;
+    position: absolute;
+  }
+  .btn{
+    border-radius: 3px;
+    width: 70%;
+    height: 7vh;
+    margin-top: 265px;
+    margin-left:90px;
+    font-size: 20px;
+    font: bold;
+    background: linear-gradient(170deg,lightblue,darkblue);;
+    color: white;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .check{
+    margin-left: 70px;
+    margin-top: 40px;
+  }
+  .keep{
+    margin-left: 10px;
+  }
+  .forget{
+    margin-left: 200px;
+    position: absolute;
+    margin-top: 50px;
+    color: blue;
+  }
