@@ -7,9 +7,7 @@ import loginCss from './loginCss.module.css'
 
 
 function LoginPage() {
-    // const [email,setName]=useState("")
-    // const [content,setContent]=useState("")
-    //Passing an object in useState()
+    
     const [formData,setFormData]=useState({email:"",password:""})
     const [emailData,setEmailData]=useState([])
 
