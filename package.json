@@ -2,7 +2,7 @@
   "name": "newsapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sayyedarbaab.github.io/news-reader-app-reactJs",
+  "homepage": "https://sayyedarbaab.github.io/news-reader-app-reactJs/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
