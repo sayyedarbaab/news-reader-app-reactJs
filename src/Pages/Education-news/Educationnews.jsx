@@ -29,8 +29,8 @@ function Educationnews() {
                 <p className="card-text">
                   {val.description}
                 </p>
-                <a href="#" className="btn btn-primary">
-                  <button href={val.url}>Go somewhere</button>
+                <a href="/News_Detail_1" className="btn btn-primary">
+                  <button>Go somewhere</button>
                 </a>
               </div>
             </div>
