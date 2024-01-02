@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/news-reader-app-reactJs/static/css/main.b80e212a.css",
-    "main.js": "/news-reader-app-reactJs/static/js/main.c725f1ae.js",
-    "static/js/787.6643f1c0.chunk.js": "/news-reader-app-reactJs/static/js/787.6643f1c0.chunk.js",
-    "index.html": "/news-reader-app-reactJs/index.html",
-    "main.b80e212a.css.map": "/news-reader-app-reactJs/static/css/main.b80e212a.css.map",
-    "main.c725f1ae.js.map": "/news-reader-app-reactJs/static/js/main.c725f1ae.js.map",
-    "787.6643f1c0.chunk.js.map": "/news-reader-app-reactJs/static/js/787.6643f1c0.chunk.js.map"
+    "main.css": "/httpgit%20a://sayyedarbaab.github.io/news-reader-app-reactJs/static/css/main.b80e212a.css",
+    "main.js": "/httpgit%20a://sayyedarbaab.github.io/news-reader-app-reactJs/static/js/main.9feb2697.js",
+    "static/js/787.6643f1c0.chunk.js": "/httpgit%20a://sayyedarbaab.github.io/news-reader-app-reactJs/static/js/787.6643f1c0.chunk.js",
+    "index.html": "/httpgit%20a://sayyedarbaab.github.io/news-reader-app-reactJs/index.html",
+    "main.b80e212a.css.map": "/httpgit%20a://sayyedarbaab.github.io/news-reader-app-reactJs/static/css/main.b80e212a.css.map",
+    "main.9feb2697.js.map": "/httpgit%20a://sayyedarbaab.github.io/news-reader-app-reactJs/static/js/main.9feb2697.js.map",
+    "787.6643f1c0.chunk.js.map": "/httpgit%20a://sayyedarbaab.github.io/news-reader-app-reactJs/static/js/787.6643f1c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b80e212a.css",
-    "static/js/main.c725f1ae.js"
+    "static/js/main.9feb2697.js"
   ]
 }
