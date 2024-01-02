@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import style_poli from './politics.module.css'
-function Politics_news() {
+function Politicsnews() {
   const [news, setNews] = useState([]);
   useEffect(() => {
     axios
@@ -40,4 +40,4 @@ function Politics_news() {
     </div>
   );
 }
-export default Politics_news;
+export default Politicsnews;

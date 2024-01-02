@@ -1,25 +1,25 @@
 import Navbar from './Components/Navbar';
 import './App.css';
 import Home from './Pages/Home/Home'
-import Cricket_news from './Pages/Cricket-news/Cricket_news';
-import Education_news from './Pages/Education-news/Education_news'
+import Cricketnews from './Pages/Cricket-news/Cricketnews';
+import Educationnews from './Pages/Education-news/Educationnews';
 import LoginPage from './Pages/Login-Page/LoginPage'
-import Politics_news from './Pages/Politic_news/Politics_news'
-import {RouterProvider,Routes, createBrowserRouter } from 'react-router-dom';
-import News_Detail_1 from './Pages/News_Details/1st_News_Detail/News_Detail_1';
-import News_Detail_2 from './Pages/News_Details/2nd_News_Detail/News_Detail_2';
+import Politicsnews from './Pages/Politic_news/Politicsnews';
+import {RouterProvider, createBrowserRouter } from 'react-router-dom';
+import NewsDetail1 from './Pages/News_Details/1st_News_Detail/NewsDetail1';
+import NewsDetail2 from './Pages/News_Details/2nd_News_Detail/NewsDetail2';
 
 function App() {
 
   const BrowserRouter=createBrowserRouter([
     {path:'/',element:<Navbar />,
     children:[{index:true,element:<Home />},
-    {path:'cricket_news',element:<Cricket_news />},
-    {path:'education_news',element:<Education_news />},
-    {path:'Politics_news',element:<Politics_news />},
+    {path:'cricket_news',element:<Cricketnews />},
+    {path:'education_news',element:<Educationnews />},
+    {path:'Politics_news',element:<Politicsnews />},
     {path:'LoginPage',element:<LoginPage />},
-    {path:'News_Detail_1',element:<News_Detail_1 />},
-    {path:'News_Detail_2',element:<News_Detail_2 />}
+    {path:'News_Detail_1',element:<NewsDetail1 />},
+    {path:'News_Detail_2',element:<NewsDetail2 />}
   ]}
   ])
   return (

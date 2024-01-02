@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-function News_Detail_2() {
+function NewsDetail2() {
 
     const [news, setNews] = useState([]);
         useEffect(() => {
@@ -45,4 +45,4 @@ function News_Detail_2() {
   )
 }
 
-export default News_Detail_2
+export default NewsDetail2

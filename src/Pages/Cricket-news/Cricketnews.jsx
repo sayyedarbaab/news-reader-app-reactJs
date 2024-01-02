@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import style_edu from './education.module.css'
+import styled from './cricket.module.css'
+import { Link } from "react-router-dom";
 
-function Education_news() {
+function Cricketnews() {
   const [news, setNews] = useState([]);
   useEffect(() => {
     axios
@@ -16,22 +17,26 @@ function Education_news() {
   }, []);
 
   return (
+    <>
     <div className="container my-5">
       <div className="row text-center">
+      {/* USING MAP FUNCTION */}
         {
         news.map((val) => {
          return (
             <div className="col">
-            <div className={style_edu.card} style={{ width: "18rem" }}>
+            <div className={styled.card} style={{ width: "18rem" }}>
               <img src={val.urlToImage} className="card-img-top" alt="..." />
+              
               <div className="card-body">
                 <h5 className=''>{val.title}</h5>
                 <p className="card-text">
                   {val.description}
                 </p>
-                <a href="#" className="btn btn-primary">
+
+                <Link to='/News_Detail_1' className="btn btn-primary">
                   <button href={val.url}>Go somewhere</button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -39,6 +44,7 @@ function Education_news() {
         })}
       </div>
     </div>
+    </>
   );
 }
-export default Education_news;
+export default Cricketnews;

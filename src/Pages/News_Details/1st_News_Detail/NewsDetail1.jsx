@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import style_Detail from './News_Detail_1.module.css'
 
-function News_Detail_1() {
+function NewsDetail1() {
 
     const [news, setNews] = useState([]);
         useEffect(() => {
@@ -46,4 +46,4 @@ function News_Detail_1() {
   )
 }
 
-export default News_Detail_1
+export default NewsDetail1
