@@ -8,7 +8,7 @@ function NewsDetail2() {
         useEffect(() => {
         axios
         .get(
-        "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=804b5ac5eb154a81ad4dc4b10ada6b7f"
+        "https://jsonplaceholder.typicode.com/posts"
         )
         .then((res) => {
         console.log(res);
