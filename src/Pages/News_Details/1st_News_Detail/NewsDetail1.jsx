@@ -9,7 +9,7 @@ function NewsDetail1() {
         useEffect(() => {
         axios
         .get(
-        "https://jsonplaceholder.typicode.com/posts"
+        "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=804b5ac5eb154a81ad4dc4b10ada6b7f"
         )
         .then((res) => {
         console.log(res);
