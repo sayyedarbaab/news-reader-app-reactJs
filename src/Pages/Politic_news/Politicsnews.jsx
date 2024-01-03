@@ -3,6 +3,8 @@
 import style_poli from './politics.module.css'
 import newsData from '../Data/db.json'
 function Politicsnews() {
+
+  // fetch data from a paid News API, but due to deployment issues, it didn't work as expected. Later, you created a JSON file and a data folder to store your own data, and then successfully rendered this data in your UI
   // const [news, setNews] = useState([]);
   // useEffect(() => {
   //   axios
@@ -23,13 +25,13 @@ function Politicsnews() {
          return (
             <div className="col">
             <div className={style_poli.card} style={{ width: "18rem" }}>
-              <img src={val.urlToImage} className="card-img-top" alt="..." />
+              <img src={val.img} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className=''>{val.title}</h5>
                 <p className="card-text">
                   {val.description}
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="/News_Detail_1" className="btn btn-primary">
                   <button href={val.url}>Go somewhere</button>
                 </a>
               </div>

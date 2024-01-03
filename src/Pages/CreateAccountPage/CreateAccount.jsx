@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { db } from '../../firebaseinit';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
-import loginCss from './loginCss.module.css';
-import { Link } from 'react-router-dom';
+import loginCssCreate from './createaccount.module.css'
 import { useNavigate } from 'react-router-dom';
 
-function LoginPage() {
+function CreateAccount() {
     const back = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -19,10 +18,10 @@ function LoginPage() {
     }
 
     return (
-        <div className={loginCss.container}>
-        <h1>LOGIN PAGE</h1>
+        <div className={loginCssCreate.container}>
+        <h1>CREATE YOUR ACCOUNT</h1>
             <form onSubmit={(e) => handleSubmit(e)}>
-                <input className={loginCss.email}
+                <input className={loginCssCreate.email}
                     type='email'
                     name='email'
                     placeholder='enter your email'
@@ -31,7 +30,7 @@ function LoginPage() {
                     onChange={(e) => setEmail(e.target.value)}
                 /><br />
 
-                <input className={loginCss.password}
+                <input className={loginCssCreate.password}
                     name='password'
                     type='password'
                     placeholder='enter your password'
@@ -39,16 +38,11 @@ function LoginPage() {
                     required
                     onChange={(e) => setPassword(e.target.value)}
                 /><br />
-
-                <button className={loginCss.btn}>Login</button>
-
-                <Link to='/CreateAccount'>
-                    <button className={loginCss.createbtn} >Create Account</button>
-                </Link>
+                    <button className={loginCssCreate.createbtn} >Create Account</button>
             </form>
         </div>
     )
 }
 
-export default LoginPage;
+export default CreateAccount;
 

@@ -8,6 +8,7 @@ import Politicsnews from './Pages/Politic_news/Politicsnews';
 import {RouterProvider, createBrowserRouter } from 'react-router-dom';
 import NewsDetail1 from './Pages/News_Details/1st_News_Detail/NewsDetail1';
 import NewsDetail2 from './Pages/News_Details/2nd_News_Detail/NewsDetail2';
+import CreateAccount from './Pages/CreateAccountPage/CreateAccount';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     {path:'education_news',element:<Educationnews />},
     {path:'Politics_news',element:<Politicsnews />},
     {path:'LoginPage',element:<LoginPage />},
+    {path:'CreateAccount',element:<CreateAccount />},
     {path:'News_Detail_1',element:<NewsDetail1 />},
     {path:'News_Detail_2',element:<NewsDetail2 />}
   ]}

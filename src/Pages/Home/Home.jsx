@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import newsData from '../Data/db.json'
 
 function Home() {
+
+  // fetch data from a paid News API, but due to deployment issues, it didn't work as expected. Later, you created a JSON file and a data folder to store your own data, and then successfully rendered this data in your UI
   // const [news, setNews] = useState([]);
   // useEffect(() => {
   //   axios
